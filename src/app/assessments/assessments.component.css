@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 .example-headers-align .mat-expansion-panel-header-title, 
 .example-headers-align .mat-expansion-panel-header-description {
@@ -11,11 +11,17 @@
 }
 
 .servicesClass {
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
-.ourservices {
+
+.assessments {
     background: #FFEEEE;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
-padding-bottom: 17%;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+.cardpanel {
+    border-radius: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+

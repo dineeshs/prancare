@@ -56,3 +56,106 @@
    margin: 0;
  }
  
+ .img {
+  position: relative;
+  float: left;
+  width:  164px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+
+.ourteambackground {
+  background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.example-card {
+  max-width: 400px;
+  min-height: 400px;
+}
+
+.example-header-image {
+  background-image: url('../../assets/team1.png');
+  background-size: cover;
+}
+
+.team1 {
+  background-image: url('../../assets/team1.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team2 {
+  background-image: url('../../assets/team2.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team3 {
+  background-image: url('../../assets/team3.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team4 {
+  background-image: url('../../assets/team4.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team5 {
+  background-image: url('../../assets/team5.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team6 {
+  background-image: url('../../assets/team6.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team7 {
+  background-image: url('../../assets/team7.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team8 {
+  background-image: url('../../assets/team8.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team9 {
+  background-image: url('../../assets/team9.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+.team10 {
+  background-image: url('../../assets/team10.png');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+}
+
+.collectionclass {
+  background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+}
+.collection-item {
+  background: none;
+}
+
+.cardclass {
+  border-radius: 1em;
+}
+.collection {
+  border: none;
+}

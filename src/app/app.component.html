@@ -7,8 +7,15 @@
         
       <li><a [routerLink]="['/home']">Home</a></li>
       <li><a [routerLink]="['/about-us']">About Us</a></li>
-      <li><a [routerLink]="['/our-services']">Our Services</a></li>
-      <li><a [routerLink]="['/our-team']">Our Team</a>></li>
+      
+      <li>
+              <mat-menu #appMenu="matMenu">
+                  <button mat-menu-item [routerLink]="['/adult']">Adult and Child Services</button>
+                  <button mat-menu-item [routerLink]="['/our-services']">Corporate Services</button>
+                  <button mat-menu-item [routerLink]="['/assessments']">Assessments</button>
+                </mat-menu>
+        <a [matMenuTriggerFor]="appMenu">Our Services</a></li>
+      <li><a [routerLink]="['/our-team']">Our Team</a></li>
       <li><a [routerLink]="['/contact-us']">Contact Us</a></li>
     </ul>
 

@@ -1,47 +1,226 @@
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h4 class="header col s12 light">"There is no illness that is not exacerbated by stress"</h4>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="../assets/background4.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-  
-  
-  <div class="container">
-    <div class="section" id="services">
-  
+
+  <div class="ourservices ">
+      <div class="section" id="services">
+      <div class="container servicesClass">
+    
+        
       <div class="row left-align">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Our Services</h4>
-  
-          <ul class="collection with-header brown-text left-align">
-            <li class="collection-item"><div><b>Individual Counselling</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Learning disability evaluation</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>School readiness evaluation</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Stress management</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Psychological testing</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Educational assessment</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Marital/pre-marital counselling</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Anger management</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Work life balance</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Psychiatric evaluation</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>IQ/EQ evaluation</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-            <li class="collection-item"><div><b>Family therapy</b><a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
-           
-          </ul>
+          <h3 class="teal-text"><b>Corporate services</b> </h3>
+          <mat-divider></mat-divider>
+          <br>
+          <mat-accordion class="example-headers-align">
+              <mat-expansion-panel [expanded]="step === 0" (opened)="setStep(0)" hideToggle>
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                     <b>Leadership Development Programs</b> 
+                     
+                  </mat-panel-title>
+                  
+                  <mat-panel-description>
+                      Click to know more..
+                      
+                    <mat-icon>arrow_drop_down</mat-icon>
+                  </mat-panel-description>
+                </mat-expansion-panel-header>
+            <p style="text-align:left" >Pran care has Industrial psychologists who has experience in developing and facilitating a range of
+                leadership development programs and workshops for both government and private sector agencies,
+                on topics including:
+            </p>
+      <mat-list role="list">
+                          <mat-list-item role="listitem">1. Energising from conflict</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item role="listitem">2. Supportive leadership</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item role="listitem">3. Hazard management and action planning</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item role="listitem">4. Strategic planning</mat-list-item>
+                          <mat-divider></mat-divider>
+                          <mat-list-item role="listitem">5. Managing complex issues in the workplace
+                            </mat-list-item>
+                            <mat-divider></mat-divider>
+                          <mat-list-item role="listitem">6. Workplace health and safety and industrial relations</mat-list-item>
+                        </mat-list>
+                
+                <mat-action-row>
+                  <button mat-button color="primary" (click)="nextStep()">Next</button>
+                </mat-action-row>
+              </mat-expansion-panel>
+            
+              <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>
+                         <b>Team Interventions</b> 
+                      </mat-panel-title>
+                      <mat-panel-description>
+                          Click to know more..
+                          
+                        <mat-icon>arrow_drop_down</mat-icon>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                <p style="text-align:left">Pran Care always looks forward to develop and facilitate a range of workshops for teams within government and private sector organisations, including:
+                   
+                    
+          </p>
+          <mat-list role="list">
+                              <mat-list-item role="listitem">1. Supportive teams</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">2. Wellness workshops</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">3. Effective time management</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">4. Building high performing teams</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">5. Personal resilience
+                                </mat-list-item>
+                                <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">6. Personal resilience</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">7. Organisational resilience</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">8. Help-seeking and providing support</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">9. Mental health and organisational change</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">10. Mental health and wellbeing in the workplace</mat-list-item>
+                            </mat-list>
+                    
+                            <mat-action-row>
+                                <button mat-button color="warn" (click)="prevStep()">Previous</button>
+                                <button mat-button color="primary" (click)="nextStep()">Next</button>
+                              </mat-action-row>
+              </mat-expansion-panel>
+            
+              <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>
+                         <b>Individual Services
+                          </b> 
+                      </mat-panel-title>
+                      <mat-panel-description>
+                          Click to know more..
+                          
+                        <mat-icon>arrow_drop_down</mat-icon>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                <p style="text-align:left">Pran Care has experience in the provision of professional services and clinical support in the management of psychological injuries in the workplace, relating to:
+
+                   
+                    
+          </p>
+          <mat-list role="list">
+                              <mat-list-item role="listitem">1. Pain management
+                                </mat-list-item>
+                                <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">2. Coping skills training</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">3. Stress management
+                                </mat-list-item>
+                                <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">4. Substance use disorders</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">5. Critical incident debriefing
+                                </mat-list-item>
+                                <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">6. Performance management</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">7. Employee assistance programs</mat-list-item>
+                              <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">8. Adjustment to injury counseling</mat-list-item>
+                            </mat-list>
+                    
+                            <mat-action-row>
+                                <button mat-button color="warn" (click)="prevStep()">Previous</button>
+                                <button mat-button color="primary" (click)="nextStep()">Next</button>
+                              </mat-action-row>
+              </mat-expansion-panel>
+
+              <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(3)" hideToggle>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>
+                         <b>Corporate Psychology Services
+                          </b> 
+                      </mat-panel-title>
+                      <mat-panel-description>
+                          Click to know more..
+                          
+                        <mat-icon>arrow_drop_down</mat-icon>
+                      </mat-panel-description>
+                    </mat-expansion-panel-header>
+                <p style="text-align:left">Pran Care provides the following corporate psychology services to private, government and not-for-profit organisations across various industries:
+
+
+                   
+                    
+          </p>
+          <mat-list role="list">
+              <h2 matSubheader>
+                <b>Education and Training:</b>
+              </h2>
+                              <mat-list-item role="listitem">1. Wellness and resilience workshops
+                                
+                                  
+                                </mat-list-item>
+                                <mat-divider></mat-divider>
+                              <mat-list-item role="listitem">2. Understanding and managing mood disorders in the workplace</mat-list-item>
+                              
+                              <mat-divider></mat-divider><h2 matSubheader>
+                                  <b>Executive Coaching:
+                                    </b>
+                                </h2>
+                                <mat-list-item role="listitem">1. Effective time management
+                                  </mat-list-item>
+                                  <mat-divider></mat-divider>
+                                <mat-list-item role="listitem">2. Balancing supportive and strategic leadership</mat-list-item>
+                                <mat-divider></mat-divider><mat-list-item role="listitem">3. Motivating and leading your team
+                                      </mat-list-item>
+                                      <mat-divider></mat-divider>
+                                      <mat-list-item role="listitem">4. Complex people issues
+
+                                        </mat-list-item>
+                                        <mat-divider></mat-divider>
+                                        <h2 matSubheader>
+                                            <b>Other Services:
+
+                                              </b>
+                                          </h2>
+                                          <mat-list-item role="listitem">1. Coping skills training
+
+                                            </mat-list-item>
+                                            <mat-divider></mat-divider>
+                                          <mat-list-item role="listitem">2. Stress management</mat-list-item>
+                                          <mat-divider></mat-divider>
+
+                                              <mat-list-item role="listitem">3. Substance use management
+
+                                                </mat-list-item>
+                                                <mat-divider></mat-divider>
+                                                <mat-list-item role="listitem">4. Adjustment to injury counselling
+                                                  </mat-list-item>
+                            </mat-list>
+                    
+                            <mat-action-row>
+                                <button mat-button color="warn" (click)="prevStep()">Previous</button>
+                                <button mat-button color="primary" (click)="nextStep()">End</button>
+                              </mat-action-row>
+              </mat-expansion-panel>
+            
+            </mat-accordion>
             
           
         </div>
       </div>
+      <div class="row left-align">
+          <div class="col s12 center">
+
+            </div></div>
   
     </div>
   </div>
   
-  
-  
-  
+</div>
+
+
+
   

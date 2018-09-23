@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ourservices',
-  templateUrl: './ourservices.component.html',
-  styleUrls: ['./ourservices.component.css']
+  selector: 'app-assessments',
+  templateUrl: './assessments.component.html',
+  styleUrls: ['./assessments.component.css']
 })
-export class OurservicesComponent  {
+export class Assessments  {
 
   constructor() { }
   step;
