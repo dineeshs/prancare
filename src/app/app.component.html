@@ -19,14 +19,21 @@
       <li><a [routerLink]="['/contact-us']">Contact Us</a></li>
     </ul>
 
-    <!-- <ul id="nav-mobile" class="sidenav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Our Services</a></li>
-        <li><a href="#team">Our Team</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+    <ul id="nav-mobile" class="sidenav">
+        <li class="sidenav-close"><a [routerLink]="['/home']">Home</a></li>
+      <li class="sidenav-close"><a [routerLink]="['/about-us']">About Us</a></li>
+      
+      <li class="sidenav-close">
+              <mat-menu #appMenu="matMenu" >
+                  <button  mat-menu-item [routerLink]="['/adult']">Adult and Child Services</button>
+                  <button class="sidenav-close" mat-menu-item [routerLink]="['/our-services']">Corporate Services</button>
+                  <button class="sidenav-close" mat-menu-item [routerLink]="['/assessments']">Assessments</button>
+                </mat-menu>
+        <a [matMenuTriggerFor]="appMenu">Our Services</a></li>
+      <li class="sidenav-close"><a [routerLink]="['/our-team']">Our Team</a></li>
+      <li class="sidenav-close"><a [routerLink]="['/contact-us']">Contact Us</a></li>
     </ul>
-    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
 </nav>
 </div>

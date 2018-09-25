@@ -1,3 +1,7 @@
 li.active{
     background-color: red;
 }
+
+.navbar-fixed {
+    z-index: 999; 
+ }
